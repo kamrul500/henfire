@@ -181,7 +181,7 @@ $isfreelancer = MyHelpers::IsFreelancer(yii::$app->user->identity->id);
     </div>
 
     <div class="col-md-12 fh5co-copyright text-center">
-      <p>&copy; 2016 <?= Html::encode(MyHelpers::WebsiteName());?>. All Rights Reserved. <span>Created by <a href="https://stralixprojects.com" target="_blank">StralixProjects.com</a></span></p>
+      <p>&copy; 2016 <?= Html::encode(MyHelpers::WebsiteName());?>. All Rights Reserved. <span>Created by Henfire Pro</span></p>
     </div>
 
   </div>
