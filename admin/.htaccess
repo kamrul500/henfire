@@ -1,9 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteBase /henfire/admin
-# If a directory or a file exists, use it directly
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-# Otherwise forward it to index.php
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-</IfModule>
