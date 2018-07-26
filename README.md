@@ -1,5 +1,5 @@
 # henfire
-a free freelancer script like fiver or e-lance.
+a freelancer script like fiver or e-lance.
 
 ![alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras%20/img/preview2.png)
 
