@@ -72,7 +72,7 @@ return [
         ],
 
         'urlManager' => [
-            'baseurl' => '/',
+            'baseurl' => '/henfire',
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => array(
