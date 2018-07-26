@@ -22,6 +22,9 @@ Locate and add new lang:
 # setting main language
 protected/common/config/main.php and change from en at the top to your language that you created previously.
 
+# added extra
+It can also support PayPal pro although currently Disabled. using paypal pro will automate all payments and perform far better as an escrow without you having to manually do payments. However... manualy doing it may be much more secure!!!
+
 # some pics
 [alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras%20/img/preview3.png)
 [alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras%20/img/preview4.png)
