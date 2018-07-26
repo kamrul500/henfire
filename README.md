@@ -1,7 +1,7 @@
 # henfire
 a freelancer script like fiver or e-lance.
 
-![alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras%20/img/preview2.png)
+![alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras/img/preview2.png)
 
 # installation
 First chmod 755 uploads folder
@@ -26,6 +26,6 @@ protected/common/config/main.php and change from en at the top to your language 
 It can also support PayPal pro although currently Disabled. using paypal pro will automate all payments and perform far better as an escrow without you having to manually do payments. However... manualy doing it may be much more secure!!!
 
 # some pics
-![alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras%20/img/preview3.png)
+![alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras/img/preview3.png)
 
-![alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras%20/img/preview4.png)
+![alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras/img/preview4.png)
