@@ -237,15 +237,6 @@ return array (
       '@rmrevin/yii/fontawesome' => $vendorDir . '/rmrevin/yii2-fontawesome',
     ),
   ),
-  'yiisoft/yii2-swiftmailer' => 
-  array (
-    'name' => 'yiisoft/yii2-swiftmailer',
-    'version' => '2.1.0.0',
-    'alias' => 
-    array (
-      '@yii/swiftmailer' => $vendorDir . '/yiisoft/yii2-swiftmailer',
-    ),
-  ),
   'kartik-v/yii2-krajee-base' => 
   array (
     'name' => 'kartik-v/yii2-krajee-base',
@@ -280,15 +271,6 @@ return array (
     'alias' => 
     array (
       '@kartik/alert' => $vendorDir . '/kartik-v/yii2-widget-alert',
-    ),
-  ),
-  'kartik-v/yii2-widget-datepicker' => 
-  array (
-    'name' => 'kartik-v/yii2-widget-datepicker',
-    'version' => '1.4.3.0',
-    'alias' => 
-    array (
-      '@kartik/date' => $vendorDir . '/kartik-v/yii2-widget-datepicker',
     ),
   ),
   'yiisoft/yii2-jui' => 
@@ -345,15 +327,6 @@ return array (
       '@dosamigos/multiselect' => $vendorDir . '/2amigos/yii2-multi-select-widget/src',
     ),
   ),
-  'codemix/yii2-localeurls' => 
-  array (
-    'name' => 'codemix/yii2-localeurls',
-    'version' => '1.7.0.0',
-    'alias' => 
-    array (
-      '@codemix/localeurls' => $vendorDir . '/codemix/yii2-localeurls',
-    ),
-  ),
   'yiisoft/yii2-authclient' => 
   array (
     'name' => 'yiisoft/yii2-authclient',
@@ -361,25 +334,6 @@ return array (
     'alias' => 
     array (
       '@yii/authclient' => $vendorDir . '/yiisoft/yii2-authclient/src',
-    ),
-  ),
-  'dektrium/yii2-user' => 
-  array (
-    'name' => 'dektrium/yii2-user',
-    'version' => '0.9.13.0',
-    'alias' => 
-    array (
-      '@dektrium/user' => $vendorDir . '/dektrium/yii2-user',
-    ),
-    'bootstrap' => 'dektrium\\user\\Bootstrap',
-  ),
-  'dmstr/yii2-adminlte-asset' => 
-  array (
-    'name' => 'dmstr/yii2-adminlte-asset',
-    'version' => '2.6.0.0',
-    'alias' => 
-    array (
-      '@dmstr' => $vendorDir . '/dmstr/yii2-adminlte-asset',
     ),
   ),
   'yiisoft/yii2-debug' => 
@@ -391,15 +345,6 @@ return array (
       '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug',
     ),
   ),
-  'yiisoft/yii2-gii' => 
-  array (
-    'name' => 'yiisoft/yii2-gii',
-    'version' => '2.0.6.0',
-    'alias' => 
-    array (
-      '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii',
-    ),
-  ),
   'kartik-v/yii2-label-inplace' => 
   array (
     'name' => 'kartik-v/yii2-label-inplace',
@@ -407,6 +352,61 @@ return array (
     'alias' => 
     array (
       '@kartik/label' => $vendorDir . '/kartik-v/yii2-label-inplace',
+    ),
+  ),
+  'codemix/yii2-localeurls' => 
+  array (
+    'name' => 'codemix/yii2-localeurls',
+    'version' => '1.7.1.0',
+    'alias' => 
+    array (
+      '@codemix/localeurls' => $vendorDir . '/codemix/yii2-localeurls',
+    ),
+  ),
+  'yiisoft/yii2-swiftmailer' => 
+  array (
+    'name' => 'yiisoft/yii2-swiftmailer',
+    'version' => '2.1.1.0',
+    'alias' => 
+    array (
+      '@yii/swiftmailer' => $vendorDir . '/yiisoft/yii2-swiftmailer/src',
+    ),
+  ),
+  'dektrium/yii2-user' => 
+  array (
+    'name' => 'dektrium/yii2-user',
+    'version' => '0.9.14.0',
+    'alias' => 
+    array (
+      '@dektrium/user' => $vendorDir . '/dektrium/yii2-user',
+    ),
+    'bootstrap' => 'dektrium\\user\\Bootstrap',
+  ),
+  'dmstr/yii2-adminlte-asset' => 
+  array (
+    'name' => 'dmstr/yii2-adminlte-asset',
+    'version' => '2.6.2.0',
+    'alias' => 
+    array (
+      '@dmstr' => $vendorDir . '/dmstr/yii2-adminlte-asset',
+    ),
+  ),
+  'yiisoft/yii2-gii' => 
+  array (
+    'name' => 'yiisoft/yii2-gii',
+    'version' => '2.0.7.0',
+    'alias' => 
+    array (
+      '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii/src',
+    ),
+  ),
+  'kartik-v/yii2-widget-datepicker' => 
+  array (
+    'name' => 'kartik-v/yii2-widget-datepicker',
+    'version' => '1.4.4.0',
+    'alias' => 
+    array (
+      '@kartik/date' => $vendorDir . '/kartik-v/yii2-widget-datepicker',
     ),
   ),
   'kartik-v/yii2-widget-activeform' => 

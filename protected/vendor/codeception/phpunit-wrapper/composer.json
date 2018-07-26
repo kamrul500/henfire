@@ -10,14 +10,18 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "^7.0",
+        "phpunit/phpunit": "^7.1",
         "phpunit/php-code-coverage": "^6.0",
-        "sebastian/comparator": "^2.0",
+        "sebastian/comparator": "^3.0",
         "sebastian/diff": "^3.0"
     },
     "autoload":{
         "psr-4":{
             "Codeception\\PHPUnit\\": "src\\"
         }
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^2.4",
+        "codeception/specify": "*"
     }
 }

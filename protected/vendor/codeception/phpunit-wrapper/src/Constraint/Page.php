@@ -6,6 +6,7 @@ use Codeception\Lib\Console\Message;
 class Page extends \PHPUnit\Framework\Constraint\Constraint
 {
     protected $uri;
+    protected $string;
 
     public function __construct($string, $uri = '')
     {
@@ -43,13 +44,11 @@ class Page extends \PHPUnit\Framework\Constraint\Constraint
      *
      * @return string
      */
-    public function toString()
+    public function toString() : string
     {
-        $string = mb_strtolower($this->string, 'UTF-8');
-
         return sprintf(
             'contains "%s"',
-            $string
+            $this->string
         );
     }
 

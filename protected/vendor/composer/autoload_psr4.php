@@ -6,10 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'yii\\swiftmailer\\' => array($vendorDir . '/yiisoft/yii2-swiftmailer'),
+    'yii\\swiftmailer\\' => array($vendorDir . '/yiisoft/yii2-swiftmailer/src'),
     'yii\\jui\\' => array($vendorDir . '/yiisoft/yii2-jui'),
     'yii\\httpclient\\' => array($vendorDir . '/yiisoft/yii2-httpclient/src'),
-    'yii\\gii\\' => array($vendorDir . '/yiisoft/yii2-gii'),
+    'yii\\gii\\' => array($vendorDir . '/yiisoft/yii2-gii/src'),
     'yii\\debug\\' => array($vendorDir . '/yiisoft/yii2-debug'),
     'yii\\composer\\' => array($vendorDir . '/yiisoft/yii2-composer'),
     'yii\\bootstrap\\' => array($vendorDir . '/yiisoft/yii2-bootstrap/src'),
@@ -62,6 +62,7 @@ return array(
     'bizley\\quill\\' => array($vendorDir . '/bizley/quill'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
     'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
     'Symfony\\Component\\Intl\\' => array($vendorDir . '/symfony/intl'),
