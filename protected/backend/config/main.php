@@ -48,7 +48,7 @@ return [
         'user' => [
         'identityCookie' => [
             'name'     => '_backendIdentity',
-            'path'     => '/henfire/admin',
+            'path'     => '/admin',
             'httpOnly' => true,
         ],
     ],
@@ -56,7 +56,7 @@ return [
         'name' => 'BACKENDSESSID',
         'cookieParams' => [
             'httpOnly' => true,
-            'path'     => '/henfire/admin',
+            'path'     => '/admin',
         ],
     ],
         'log' => [
