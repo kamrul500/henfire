@@ -803,6 +803,7 @@ ALTER TABLE ".$table_prefix."freelancejobs
 ";
 $tbl[]="
 ALTER TABLE ".$table_prefix."hourlies
+ADD PRIMARY KEY (`id`),
 ADD KEY `user_id` (`user_id`);
 ";
 
@@ -951,104 +952,104 @@ ALTER TABLE ".$table_prefix."withdrawals
 
 //Auto increment
 $tbl[]="
-ALTER TABLE `".$table_prefix."admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."apps_countries`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."auth`
+ALTER TABLE ".$table_prefix."admin
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 $tbl[]="
-ALTER TABLE `".$table_prefix."categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."deposits`
+ALTER TABLE ".$table_prefix."apps_countries
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 $tbl[]="
-ALTER TABLE `".$table_prefix."hourlies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."hourliesreviews`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."hourliessales`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."hourlieworkflow`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."invite`
+ALTER TABLE ".$table_prefix."auth
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 $tbl[]="
-ALTER TABLE `".$table_prefix."job`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."jobreviews`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."jobworkflow`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."job_category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."job_proposals`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."job_questions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."payments`
+ALTER TABLE ".$table_prefix."categories
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 $tbl[]="
-ALTER TABLE `".$table_prefix."payment_requests`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."settings`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-";
-$tbl[]="
-ALTER TABLE `".$table_prefix."social_account`
+ALTER TABLE ".$table_prefix."deposits
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 $tbl[]="
-ALTER TABLE `".$table_prefix."social_login`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+ALTER TABLE ".$table_prefix."hourlies
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 $tbl[]="
-ALTER TABLE `".$table_prefix."user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+ALTER TABLE ".$table_prefix."hourliesreviews
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 $tbl[]="
-ALTER TABLE `".$table_prefix."userreviews`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+ALTER TABLE ".$table_prefix."hourliessales
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 $tbl[]="
-ALTER TABLE `".$table_prefix."payment_requests`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+ALTER TABLE ".$table_prefix."hourlieworkflow
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."invite
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."job
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."jobreviews
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."jobworkflow
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."job_category
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."job_proposals
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."job_questions
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."payments
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."payment_requests
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."settings
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."social_account
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."social_login
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."user
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."userreviews
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+";
+$tbl[]="
+ALTER TABLE ".$table_prefix."payment_requests
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 
 $tbl[]="
-ALTER TABLE `".$table_prefix."withdrawals`
+ALTER TABLE ".$table_prefix."withdrawals
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ";
 
