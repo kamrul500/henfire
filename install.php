@@ -208,7 +208,7 @@ RewriteRule . /index.php [L]
   $table_prefix=isset($data['db_table_prefix'])?$data['db_table_prefix']:'mh_';
 
   if (empty($table_prefix)){
-  	 //$table_prefix='mh_';
+  	 $table_prefix='mh_';
   }
 
   require_once $current_dir."/protected/config/table_structure.php";
