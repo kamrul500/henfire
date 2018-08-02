@@ -29,3 +29,7 @@ It can also support PayPal pro although currently Disabled. using paypal pro wil
 ![alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras%20/img/preview3.png)
 
 ![alt text](https://raw.githubusercontent.com/Matthuffy/henfire/master/Extras%20/img/preview4.png)
+
+# Customisation
+
+If you wold like to have any customisation, feel free to get in touch by opening a request here and we can disguss.
